@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1853B4771E536FC100CBACBF /* weatherIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1853B4761E536FC100CBACBF /* weatherIcons.xcassets */; };
+		1853B4791E53744400CBACBF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853B4781E53744400CBACBF /* CustomTableViewCell.swift */; };
 		7C1F0C5D1E4E2FDB000BB9D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F0C5C1E4E2FDB000BB9D0 /* AppDelegate.swift */; };
 		7C1F0C5F1E4E2FDB000BB9D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F0C5E1E4E2FDB000BB9D0 /* ViewController.swift */; };
 		7C1F0C621E4E2FDB000BB9D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C1F0C601E4E2FDB000BB9D0 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1853B4761E536FC100CBACBF /* weatherIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = weatherIcons.xcassets; sourceTree = "<group>"; };
+		1853B4781E53744400CBACBF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		7C1F0C591E4E2FDB000BB9D0 /* Forecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C1F0C5C1E4E2FDB000BB9D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C1F0C5E1E4E2FDB000BB9D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +70,9 @@
 				7C1F0C5C1E4E2FDB000BB9D0 /* AppDelegate.swift */,
 				7C1F0C5E1E4E2FDB000BB9D0 /* ViewController.swift */,
 				7C1F0C601E4E2FDB000BB9D0 /* Main.storyboard */,
+				1853B4781E53744400CBACBF /* CustomTableViewCell.swift */,
 				7C1F0C631E4E2FDB000BB9D0 /* Assets.xcassets */,
+				1853B4761E536FC100CBACBF /* weatherIcons.xcassets */,
 				7C1F0C651E4E2FDB000BB9D0 /* LaunchScreen.storyboard */,
 				7C1F0C681E4E2FDB000BB9D0 /* Info.plist */,
 				7C1F0C6E1E4E4B89000BB9D0 /* WeatherDownloader.swift */,
@@ -137,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C1F0C671E4E2FDB000BB9D0 /* LaunchScreen.storyboard in Resources */,
+				1853B4771E536FC100CBACBF /* weatherIcons.xcassets in Resources */,
 				7C1F0C641E4E2FDB000BB9D0 /* Assets.xcassets in Resources */,
 				7C1F0C621E4E2FDB000BB9D0 /* Main.storyboard in Resources */,
 			);
@@ -152,6 +159,7 @@
 				7C1F0C6F1E4E4B89000BB9D0 /* WeatherDownloader.swift in Sources */,
 				7C1F0C731E4E598D000BB9D0 /* WeatherData.swift in Sources */,
 				7C1F0C5F1E4E2FDB000BB9D0 /* ViewController.swift in Sources */,
+				1853B4791E53744400CBACBF /* CustomTableViewCell.swift in Sources */,
 				7C1F0C5D1E4E2FDB000BB9D0 /* AppDelegate.swift in Sources */,
 				7C3DB1AF1E5365950074E0A7 /* ForecastData.swift in Sources */,
 				7C1F0C711E4E4BAC000BB9D0 /* Constants.swift in Sources */,

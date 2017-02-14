@@ -12,8 +12,8 @@ import CoreLocation
 class ViewController: UIViewController {
 
     @IBOutlet weak var cityLabel: UILabel!
-    @IBOutlet weak var weatherDescriptionLabel: UILabel!
     @IBOutlet weak var tempratureLabel: UILabel!
+    @IBOutlet weak var TableView: UITableView!
     
     var locationManager = CLLocationManager()
     
@@ -40,7 +40,6 @@ class ViewController: UIViewController {
     
     func updateUI(_ weatherData: WeatherData) {
         cityLabel.text = weatherData.cityName
-        weatherDescriptionLabel.text = weatherData.type
         if let temp = weatherData.temprature {
             tempratureLabel.text = "\(temp - 273.15)˚"
         }
