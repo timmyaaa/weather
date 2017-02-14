@@ -15,6 +15,7 @@
 		7C1F0C6F1E4E4B89000BB9D0 /* WeatherDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F0C6E1E4E4B89000BB9D0 /* WeatherDownloader.swift */; };
 		7C1F0C711E4E4BAC000BB9D0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F0C701E4E4BAC000BB9D0 /* Constants.swift */; };
 		7C1F0C731E4E598D000BB9D0 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F0C721E4E598D000BB9D0 /* WeatherData.swift */; };
+		7C3DB1AF1E5365950074E0A7 /* ForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3DB1AE1E5365950074E0A7 /* ForecastData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7C1F0C6E1E4E4B89000BB9D0 /* WeatherDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDownloader.swift; sourceTree = "<group>"; };
 		7C1F0C701E4E4BAC000BB9D0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7C1F0C721E4E598D000BB9D0 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		7C3DB1AE1E5365950074E0A7 /* ForecastData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				7C1F0C681E4E2FDB000BB9D0 /* Info.plist */,
 				7C1F0C6E1E4E4B89000BB9D0 /* WeatherDownloader.swift */,
 				7C1F0C721E4E598D000BB9D0 /* WeatherData.swift */,
+				7C3DB1AE1E5365950074E0A7 /* ForecastData.swift */,
 			);
 			path = Forecast;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				7C1F0C731E4E598D000BB9D0 /* WeatherData.swift in Sources */,
 				7C1F0C5F1E4E2FDB000BB9D0 /* ViewController.swift in Sources */,
 				7C1F0C5D1E4E2FDB000BB9D0 /* AppDelegate.swift in Sources */,
+				7C3DB1AF1E5365950074E0A7 /* ForecastData.swift in Sources */,
 				7C1F0C711E4E4BAC000BB9D0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +320,7 @@
 				7C1F0C6D1E4E2FDB000BB9D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

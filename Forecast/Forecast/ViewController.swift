@@ -31,6 +31,9 @@ class ViewController: UIViewController {
         guard let longitude = locationManager.location?.coordinate.longitude else { return }
         WeatherDownloader.sharedInstance.requestWeather(latitude: latitude, longitude: longitude, comlition: { (weatherData) in
             self.updateUI(weatherData)
+            WeatherDownloader.sharedInstance.requestForecast(latitude: latitude, longitude: longitude, comlition: { (forecastData) in
+                //self.updateUI(forecastData)
+            })
         })
 
     }
